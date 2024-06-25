@@ -1,0 +1,89 @@
+
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 10px; 
+   
+}
+
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #e5e7eb; /* Light gray border */
+}
+
+/* Container styles */
+.navbar-container {
+    max-width: 7xl; /* Maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 1rem; /* Padding on the sides */
+}
+
+/* Flex container styles */
+.navbar-flex {
+    display: flex; /* Display as flex */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center vertically */
+    height: 4rem; /* Height of the navbar */
+}
+
+/* Logo styles */
+.navbar-logo {
+    flex-shrink: 0; /* Prevent logo from shrinking */
+}
+
+/* Logo link styles */
+.navbar-logo-link {
+    display: flex; /* Display as flex */
+    align-items: center; /* Center vertically */
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Dark gray text color */
+}
+
+/* Search container styles */
+.navbar-search {
+    margin-left: 1rem; /* Margin on the left */
+}
+
+/* Navigation links container styles */
+.navbar-links {
+    display: none; /* Initially hidden on small screens */
+    margin-left: 1rem; /* Margin on the left */
+}
+
+/* User balance styles */
+.user-balance {
+    position: relative; /* Relative positioning */
+    left: 45%; /* Move 45% from the left */
+    top: 29%; /* Move 29% from the top */
+    color: #fff; /* White text color */
+}
+
+/* User dropdown menu styles */
+.user-dropdown {
+    display: none; /* Initially hidden on small screens */
+    margin-left: auto; /* Align to the right */
+}
+
+/* Responsive menu button styles */
+.responsive-menu-button {
+    margin-left: -0.5rem; /* Negative margin on the left */
+}
+
+/* Responsive menu styles */
+.responsive-menu {
+    display: none; /* Initially hidden on large screens */
+}
+
+/* Profile information styles */
+.profile-info {
+    padding-top: 0.5rem; /* Padding on the top */
+    padding-bottom: 0.25rem; /* Padding on the bottom */
+}
+
+/* User actions styles */
+.user-actions {
+    margin-top: 0.75rem; /* Margin on the top */
+    padding-bottom: 0.25rem; /* Padding on the bottom */
+}

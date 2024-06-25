@@ -1,0 +1,33 @@
+.search-container {
+    position: fixed;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+    border-radius: 8px;
+    width: 500px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.search-results {
+    margin-top: 10px;
+}
+
+.search-results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.search-results li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}

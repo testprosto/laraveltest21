@@ -1,0 +1,30 @@
+.user{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+}
+
+
+
+.posts > *{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    
+    justify-content: center;
+display: flex;
+flex-direction: row;
+gap: 50px;
+flex-wrap: wrap;
+}
+
+
+.posts img {
+    transition: transform 0.3s ease;
+}
+
+.posts img:hover {
+    transform: scale(1.05);
+}
